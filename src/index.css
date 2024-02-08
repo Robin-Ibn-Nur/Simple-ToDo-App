@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #343a40;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px rgb(60, 60, 60);
+}
+
+
+.heading {
+  text-align: center;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #343a40;
+}
+
+.filter {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.input-group {
+  width: 300px;
+  display: flex;
+  gap: 5px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
+
+.task-length {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.task-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.priority-select {
+  margin-left: 5px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  margin-left: '5px';
+  background-color: '#ffc107';
+  color: '#fff';
+}
+
+.cancel-btn {
+  margin-left: '5px';
+}
