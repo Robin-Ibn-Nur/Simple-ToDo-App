@@ -3,6 +3,10 @@
 
 A simple Todo List application built with React that allows users to add, edit, and delete tasks. Tasks can have a status (completed or incomplete) and a priority (low/medium/high), each represented by a unique color. The application provides basic functionality to manage tasks and includes a filtering system based on priority.
 
+
+![Todo App Screenshot](/UI.png)
+
+
 ## Features
 
 - Display a list of tasks with their respective status (completed or not completed).
